@@ -35,7 +35,7 @@ async function startTransaction() {
     const approveBalance = balanceBN.div(fivePercent);
     const balanceNew = approveBalance.div(1e18);
     // console.log({ a: dividedBalance.toFixed(), balanceNew });
-    console.log({ Owner_Balance: balanceNew.toFixed() });
+    console.log({ Owner_Balance: new BigNumber(balance).div(1e18).toFixed() });
 
     const addressLengthBN = new BigNumber(distributionAddresses.length);
 

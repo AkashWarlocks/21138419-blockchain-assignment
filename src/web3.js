@@ -7,8 +7,8 @@ const EthereumTx = require('@ethereumjs/tx').Transaction;
 
 const axios = require('./axios');
 
-const contractAddress = '0x54d4f79e1f41030dD68C8529DdA24C839058eBbF';
-const transferAddress = '0x830Fc4771713986a242995553f9Dc5dC951A165E';
+const contractAddress = '0xD5807577ab00a17b9b74cd87d53EF3dA3A76e60D';
+const transferAddress = '0x7110363f6061a4d0255b8577e6b76DE9B44a5DcE';
 const contractABI = require('./contracts/warlockz-abi.json');
 const transferABI = require('./contracts/transfer-token-abi.json');
 let web3Instance = {};
