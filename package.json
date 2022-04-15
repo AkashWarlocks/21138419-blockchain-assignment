@@ -1,0 +1,21 @@
+{
+  "name": "erc20-token-transfer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethereumjs/tx": "^3.5.1",
+    "axios": "^0.26.1",
+    "big-number": "^2.0.0",
+    "bignumber.js": "^9.0.2",
+    "bip39": "^3.0.4",
+    "dotenv": "^16.0.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "web3": "^1.7.3"
+  }
+}
